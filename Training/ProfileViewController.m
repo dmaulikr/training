@@ -6,16 +6,17 @@
 //  Copyright © 2015 Fabio General. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "ProfileViewController.h"
 
-@interface FirstViewController ()
+@interface ProfileViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation ProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //[[UITableViewHeaderFooterView appearance] setTintColor:[UIColor redColor]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
