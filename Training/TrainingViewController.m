@@ -1,23 +1,23 @@
 //
-//  FirstViewController.m
+//  TrainingViewController.m
 //  Training
 //
-//  Created by Fabio General on 11/10/15.
+//  Created by Fabio General on 11/11/15.
 //  Copyright © 2015 Fabio General. All rights reserved.
 //
 
+#import "TrainingViewController.h"
 #import "ProfileViewController.h"
 
-@interface ProfileViewController ()
+@interface TrainingViewController ()
 
 @end
 
-@implementation ProfileViewController
+@implementation TrainingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //[[UITableViewHeaderFooterView appearance] setTintColor:[UIColor redColor]];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,7 +29,12 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
+    /*
+    if ([segue.identifier isEqualToString:@"profile"]) {
+        if ([segue.destinationViewController isKindOfClass:[ProfileViewController class]]) {
+            ProfileViewController *pvc = (ProfileViewController *)segue.destinationViewController;
+        }
+    }*/
 }
 
 @end
